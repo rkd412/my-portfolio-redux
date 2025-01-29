@@ -3,14 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --background: #87CEEB;
-  --foreground: #2F4F4F;
+  --background: #87ceeb; /* Light sky blue */
+  --foreground: #2f4f4f; /* Dark slate gray */
+  --link-color: #0056b3; /* Deep blue */
+  --link-hover: #ff4500; /* Vivid orange-red */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #001f3d;
-    --foreground: #F0F0F0;
+    --background: #001f3d; /* Deep navy blue */
+    --foreground: #f0f0f0; /* Light gray */
+    --link-color: #4ea8de; /* Sky blue */
+    --link-hover: #ffcc00; /* Bright gold */
   }
 }
 
@@ -20,23 +24,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Exception for anchor elements */
+/* Light mode links */
 a {
-  color: inherit; /* Use the same color as the surrounding text */
-  text-decoration: underline; /* Optional: To keep the underlining for anchors */
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
 }
 
 a:hover {
-  color: var(--foreground); /* Override the hover color if needed */
+  color: var(--link-hover);
 }
 
+/* Dark mode links*/
 @media (prefers-color-scheme: dark) {
-  /* Dark mode exception for anchor elements */
   a {
-    color: #1e90ff; /* Example: change color in dark mode */
+    color: var(--link-color);
   }
-  
+
   a:hover {
-    color: #00bfff; /* Example: lighter blue on hover */
+    color: var(--link-hover);
   }
 }
