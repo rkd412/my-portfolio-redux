@@ -14,27 +14,24 @@ export default function Footer() {
             href="https://github.com/rkd412"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-400"
           >
-            <FaGithub size={32} />
+            <FaGithub size={28} />
           </a>
 
           <a
             href="https://codepen.io/rkd412"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-400"
           >
-            <FaCodepen size={32} />
+            <FaCodepen size={28} />
           </a>
 
           <a
             href="https://linkedin.com/in/robert-davis-b72893217"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-400"
           >
-            <FaLinkedin size={32} />
+            <FaLinkedin size={28} />
           </a>
         </div>
       </div>

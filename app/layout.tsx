@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Welcome! Thanks for being here.",
+  title: "Home - Robert K. Davis",
   description: "Personal and professional page for Pittsburgh based Web Developer Robert K. Davis.",
 };
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 
 export default function Zara() {
@@ -11,16 +11,21 @@ export default function Zara() {
     setTimeout(() => setSrc("/zara.webp"), 500); // Revert to original after 500ms
   };
 
+  // Trigger the animation once on page load
+  useEffect(() => {
+    setSrc("/zara-wink.webp"); // Change to wink image
+    setTimeout(() => setSrc("/zara.webp"), 500); // Revert after 500ms
+  }, []); // Empty dependency array ensures this runs only once on mount
+
   return (
-    <div onClick={handleClick} className="cursor-pointer">
-      <Image
-        className="dark:invert placeholder:duration-300"
-        src={src}
-        alt="Das My Cat"
-        width={400}
-        height={400}
-        priority
-      />
-    </div>
+    <Image
+      className="dark:invert placeholder:duration-300 cursor-pointer"
+      src={src}
+      alt="My cat Zarathustra Davis"
+      width={200}
+      height={200}
+      priority
+      onClick={handleClick}
+    />
   );
 }
