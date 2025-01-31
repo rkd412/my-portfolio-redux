@@ -2,11 +2,11 @@ export default function Text() {
   return (
     <>
       <h1 className="mt-16 mb-8 text-4xl tracking-tight md:text-5xl lg:text-6xl">
-        Hi, I'm Rob — a web developer focus on crafting great digital
+        Hi, I&apos;m Rob — a web developer focus on crafting great digital
         experiences.
       </h1>
       <p className="mb-4 text-2xl leading-loose">
-        I've always loved technology, and right now, I'm helping the{" "}
+        I&apos;ve always loved technology, and right now, I&apos;m helping the{" "}
         <a
           aria-label="City of Pittsburgh"
           href="https://pittsburghpa.gov/"
@@ -25,7 +25,7 @@ export default function Text() {
         >
           Online Stores, LLC
         </a>
-        . If you're curious about my work, feel free to{" "}
+        . If you&apos;re curious about my work, feel free to{" "}
         <a aria-label="my email address" href="mailto:rob@robertkdavis.com">
           reach out via email
         </a>
