@@ -1,10 +1,10 @@
 export default function Text() {
   return (
-    <div className=" mt-16 mb-16">
-      <h1 className="mb-8 text-4xl leading-none tracking-tight md:text-5xl lg:text-6xl">
+    <>
+      <h1 className="mb-8 mt-8 text-4xl leading-relaxed tracking-tight md:text-5xl lg:text-6xl">
         Welcome! My name is Rob and I am a web developer.
       </h1>
-      <p className="text-2xl leading-relaxed">
+      <p className="mb-8 text-2xl leading-loose">
         I am a lifelong tech enthusiast currently working for the{" "}
         <a
           aria-label="City of Pittsburgh"
@@ -29,11 +29,11 @@ export default function Text() {
         </a>{" "}
         or{" "}
         <a href="/resume.pdf" download="resume">
-          download my resume here
+          download my resume
         </a>
         . I have a few links down below too in the footer. I appreciate you
         stopping by.
       </p>
-    </div>
+    </>
   );
 }

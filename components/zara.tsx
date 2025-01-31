@@ -11,10 +11,14 @@ export default function Zara() {
     setTimeout(() => setSrc("/zara.webp"), 500); // Revert to original after 500ms
   };
 
-  // Trigger the animation once on page load
+  // Trigger the animation once, 1 second after page load
   useEffect(() => {
-    setSrc("/zara-wink.webp"); // Change to wink image
-    setTimeout(() => setSrc("/zara.webp"), 500); // Revert after 500ms
+    const timeout = setTimeout(() => {
+      setSrc("/zara-wink.webp"); // Change to wink image
+      setTimeout(() => setSrc("/zara.webp"), 500); // Revert after 500ms
+    }, 1000); // Delay start by 1000ms (1 second)
+
+    return () => clearTimeout(timeout); // Cleanup in case of unmount
   }, []); // Empty dependency array ensures this runs only once on mount
 
   return (

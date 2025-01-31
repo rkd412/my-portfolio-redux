@@ -3,7 +3,7 @@ import { FaGithub, FaCodepen, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className=" py-4 sticky bottom-0">
+    <footer className="m-4 py-4 sticky bottom-0">
       <div className="container mx-auto flex justify-between items-center">
         <p className="text-sm">
           &copy; 2025 Robert K. Davis. All rights reserved.
