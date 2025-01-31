@@ -34,7 +34,7 @@ export default function Text() {
           download my resume
         </a>
         . You’ll also find more ways to connect in the footer below. Thanks for
-        stopping by.
+        stopping by!
       </p>
     </>
   );
