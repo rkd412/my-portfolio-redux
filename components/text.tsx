@@ -30,7 +30,7 @@ export default function Text() {
           reach out via email
         </a>
         , or{" "}
-        <a href="/resume.pdf" download="resume">
+        <a href="/rkd-resume.pdf" download="resume">
           download my resume
         </a>
         . You’ll also find more ways to connect in the footer below. Thanks for
