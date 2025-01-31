@@ -1,11 +1,11 @@
 export default function Text() {
   return (
     <>
-      <h1 className="mt-16 mb-8 text-4xl tracking-tight md:text-5xl lg:text-6xl">
-        Hi, I&apos;m Rob — a web developer focus on crafting great digital
+      <h1 className="lg:mt-12 mb-8 tracking-tight md:text-5xl max-w-6xl lg:text-6xl text-3xl ">
+        Hi, I&apos;m Rob — a web developer focused on crafting great digital
         experiences.
       </h1>
-      <p className="mb-4 text-2xl leading-loose">
+      <p className="mb-8 leading-relaxed lg:leading-loose max-w-6xl lg:text-3xl text-xl">
         I&apos;ve always loved technology, and right now, I&apos;m helping the{" "}
         <a
           aria-label="City of Pittsburgh"

@@ -15,7 +15,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub size={28} />
+            <FaGithub size={32} />
           </a>
 
           <a
@@ -23,7 +23,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaCodepen size={28} />
+            <FaCodepen size={32} />
           </a>
 
           <a
@@ -31,7 +31,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin size={28} />
+            <FaLinkedin size={32} />
           </a>
         </div>
       </div>
