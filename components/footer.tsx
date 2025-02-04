@@ -13,6 +13,7 @@ export default function Footer() {
             href="https://github.com/rkd412"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="GitHub profile"
           >
             <FaGithub size={32} />
           </a>
@@ -21,6 +22,7 @@ export default function Footer() {
             href="https://codepen.io/rkd412"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="CodePen profile"
           >
             <FaCodepen size={32} />
           </a>
@@ -29,6 +31,7 @@ export default function Footer() {
             href="https://linkedin.com/in/robert-davis-b72893217"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="LinkedIn profile"
           >
             <FaLinkedin size={32} />
           </a>
