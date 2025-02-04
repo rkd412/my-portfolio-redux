@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Home - Robert K. Davis",
+  title: "Robert K. Davis | Web Developer & Tech Enthusiast",
   description: "Personal and professional page for Pittsburgh based Web Developer Robert K. Davis.",
 };
 
