@@ -12,7 +12,7 @@ export default function Text() {
           href="https://pittsburghpa.gov/"
           target="_blank"
           rel="noopener noreferrer"
-  className="underline"
+          className="underline"
         >
           City of Pittsburgh
         </a>{" "}
@@ -23,16 +23,16 @@ export default function Text() {
           href="https://www.onlinestores.com/"
           target="_blank"
           rel="noopener noreferrer"
-    className="underline"
+          className="underline"
         >
           Online Stores, LLC
         </a>
         . If you&apos;re curious about my work, feel free to{" "}
-        <a aria-label="my email address" href="mailto:rob@robertkdavis.com"   className="underline">
+        <a aria-label="my email address" href="mailto:rob@robertkdavis.com" className="underline">
           reach out via email
         </a>
         , or{" "}
-        <a href="/rkd-resume.pdf" download="resume"   className="underline">
+        <a href="/Robert-K-Davis-Resume.pdf" download="resume" className="underline">
           download my resume
         </a>
         . You’ll also find more ways to connect in the footer below. Thanks for
