@@ -2,7 +2,7 @@ export default function Text() {
   return (
     <>
       <h1 className="lg:mt-12 mb-8 tracking-tight md:text-5xl max-w-6xl lg:text-6xl text-3xl ">
-        Hi, I&apos;m Rob — a tech nerd focused on crafting great digital
+        Hi, I&apos;m Rob — a tech enthusiast focused on crafting great digital
         experiences.
       </h1>
       <p className="mb-8 leading-relaxed lg:leading-loose max-w-6xl lg:text-3xl text-xl">
